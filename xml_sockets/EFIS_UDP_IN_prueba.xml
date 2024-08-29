@@ -1,0 +1,15 @@
+<PropertyList>
+    <generic>
+        <input>
+                <line_separator>\n</line_separator>
+                <var_separator>,</var_separator>
+            <chunk>
+                <name>efis_button_pressed</name>
+                <type>string</type>
+                <format>%s</format>
+                <node>/input/arduino/EFIS/button_pressed</node>
+            </chunk>
+
+        </input>
+    </generic>
+</PropertyList>

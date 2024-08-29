@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<generic>
+
+	<output>
+		<line_separator>\n</line_separator>
+		<var_separator>,</var_separator>
+
+#LEDs
+
+		<chunk>
+		<name>CSTR</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/CSTR</node>
+		</chunk>
+
+		<chunk>
+		<name>WPT</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/wpt</node>
+		</chunk>
+
+		<chunk>
+		<name>VORD</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/VORD</node>
+		</chunk>
+
+		<chunk>
+		<name>NDB</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/NDB</node>
+		</chunk>
+
+		<chunk>
+		<name>ARPT</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/arpt</node>
+		</chunk>
+
+	</output>
+
+	</generic>
+
+</PropertyList>

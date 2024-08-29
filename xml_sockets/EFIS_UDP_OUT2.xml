@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<generic>
+	<output>
+		<line_separator>\n</line_separator>
+		<var_separator>,</var_separator>
+
+# PANTALLA
+		<chunk>
+		<name>altimeter-std</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/altimeter/std</node>
+		</chunk>
+
+		<chunk>
+		<name>altimeter-inHg</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/altimeter/inhg</node>
+		</chunk>
+		
+		<chunk>
+		<name>altitude-hpa</name>
+		<type>int</type>
+		<format>%04d</format>
+		<node>/output/EFIS/formatted-setting-hpa</node>
+		</chunk>
+
+		<chunk>
+		<name>altitude-inhg</name>
+		<type>float</type>
+		<format>%05.2f</format>
+		<node>output/EFIS/formatted-setting-inhg</node>
+		</chunk>
+
+
+#LED EFIS
+
+		<chunk>
+		<name>CSTR</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/CSTR</node>
+		</chunk>
+
+		<chunk>
+		<name>WPT</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/wpt</node>
+		</chunk>
+
+		<chunk>
+		<name>VORD</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/VORD</node>
+		</chunk>
+
+		<chunk>
+		<name>NDB</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/NDB</node>
+		</chunk>
+
+		<chunk>
+		<name>ARPT</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/efis/inputs/arpt</node>
+		</chunk>
+
+		<chunk>
+		<name>FD</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/it-autoflight/output/fd1</node>
+		</chunk>
+
+		<chunk>
+		<name>LS</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/modes/pfd/ILS1</node>
+		</chunk>
+#LED warnings
+		<chunk>
+		<name>MAST_WARN</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/ECAM/warnings/master-caution-light</node>
+		</chunk>
+
+		<chunk>
+		<name>MAST_WARN_FLASH</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/ECAM/warnings/master-warning-flash</node>
+		</chunk>
+
+		<chunk>
+		<name>MAST_CAUT</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/ECAM/warnings/master-caution-light</node>
+		</chunk>
+
+		<chunk>
+		<name>AUTOLAND</name>
+		<type>bool</type>
+		<format>%d</format>
+		<node>/instrumentation/pfd/lights/autoland-on</node>
+		</chunk>
+
+	</output>
+	</generic>
+</PropertyList>

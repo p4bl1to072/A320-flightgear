@@ -1,0 +1,40 @@
+<PropertyList>
+    <generic>
+        <input>
+                <line_separator>\n</line_separator>
+                <var_separator>,</var_separator>
+            <chunk>
+                <name>button_CSTR</name>
+                <type>bool</type>
+                <format>%d</format>
+                <node>/input/arduino/EFIS/CSTR</node>
+            </chunk>
+
+            <chunk>
+                <name>button_WPT</name>
+                <type>bool</type>
+                <format>%d</format>
+                <node>/input/arduino/EFIS/WPT</node>
+            </chunk>
+            <chunk>
+                <name>button_VORD</name>
+                <type>bool</type>
+                <format>%d</format>
+                <node>/input/arduino/EFIS/VORD</node>
+            </chunk>
+            <chunk>
+                <name>button_NDB</name>
+                <type>bool</type>
+                <format>%d</format>
+                <node>/input/arduino/EFIS/NDB</node>
+            </chunk>
+            <chunk>
+                <name>button_ARPT</name>
+                <type>bool</type>
+                <format>%d</format>
+                <node>/input/arduino/EFIS/ARPT</node>
+            </chunk>
+
+        </input>
+    </generic>
+</PropertyList>
